@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(45deg, #6cc1ff, #fffff);
+    background: linear-gradient(45deg, #6cc1ff, #d3d3d3);
     background-size: 400% 400%;
     animation: gradientAnimation 15s ease infinite;
     font-size: 14px; /* Ukuran font lebih kecil untuk seluruh halaman */
