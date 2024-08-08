@@ -43,14 +43,40 @@ header {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Gaya konten utama */
 .main-content {
-    margin: 20px 0;
+    width: 70%;
+}
+
+/* Gaya sidebar */
+.sidebar {
+    width: 25%;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #4caf50;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
 }
 
 /* Gaya tabel */
@@ -70,15 +96,4 @@ th, td {
 }
 
 th {
-    background: #4caf50;
-    color: #fff;
-}
-
-tbody tr:nth-child(even) {
-    background: #f9f9f9;
-}
-
-tbody tr:hover {
-    background: #f1f1f1;
-}
-
+    background
